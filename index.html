@@ -112,6 +112,9 @@
 
 
     <script>
+        document.addEventListener("touchstart", touch2Mouse, true);
+		document.addEventListener("touchmove", touch2Mouse, true);
+		document.addEventListener("touchend", touch2Mouse, true);
         $("document").ready(function () {
             var keys = [];
             var konami = '17,16,81';  // Ctrl,Shift,q
