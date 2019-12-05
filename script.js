@@ -381,7 +381,7 @@ function keyEvent(e) {
 }
 
 function tileCount() {
-    	alert(next-1);    
+    	alert("Tiles used:  " + next);    
 }
 
 function touch2Mouse(e)
